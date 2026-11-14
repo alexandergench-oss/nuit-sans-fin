@@ -1,0 +1,394 @@
+{
+  "asset": {
+    "generator": "glTF-Transform v4.5.1",
+    "version": "2.0"
+  },
+  "accessors": [
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 4686
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 1560,
+      "max": [
+        0.13949598371982574,
+        0.6580631732940674,
+        0.24420279264450073
+      ],
+      "min": [
+        -0.13949596881866455,
+        -3.978568940965488e-8,
+        -0.12324045598506927
+      ]
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 1560
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 1560
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 936
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 264,
+      "max": [
+        0.021115895360708237,
+        0.5971118211746216,
+        0.07201548665761948
+      ],
+      "min": [
+        -0.02108774706721306,
+        0.5549080967903137,
+        0.06598098576068878
+      ]
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 264
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 264
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 87
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 28,
+      "max": [
+        -0.0016376094426959753,
+        0.5324327349662781,
+        0.007371075451374054
+      ],
+      "min": [
+        -0.08279979974031448,
+        0.47684013843536377,
+        -0.07724466919898987
+      ]
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 28
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 28
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 10753
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 10753,
+      "byteLength": 1995
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 12748,
+      "byteLength": 427
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 1
+        }
+      }
+    },
+    {
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 0
+        }
+      }
+    },
+    {
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 2
+        }
+      }
+    },
+    {
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 4
+        }
+      }
+    },
+    {
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 3
+        }
+      }
+    },
+    {
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 5
+        }
+      }
+    },
+    {
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 7
+        }
+      }
+    },
+    {
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 6
+        }
+      }
+    },
+    {
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 8
+        }
+      }
+    }
+  ],
+  "images": [
+    {
+      "name": "korean_fire_extinguisher_01_body_nor_gl",
+      "mimeType": "image/webp",
+      "uri": "textures/korean_fire_extinguisher_01_body_nor_gl_1k.webp"
+    },
+    {
+      "name": "korean_fire_extinguisher_01_body_diff.png",
+      "mimeType": "image/webp",
+      "uri": "textures/korean_fire_extinguisher_01_body_diff_1k.webp"
+    },
+    {
+      "name": "korean_fire_extinguisher_01_body_metal.png-korean_fire_extinguisher_01_body_rough.png",
+      "mimeType": "image/webp",
+      "uri": "textures/korean_fire_extinguisher_01_body_arm_1k.webp"
+    },
+    {
+      "name": "korean_fire_extinguisher_01_glass_nor_gl",
+      "mimeType": "image/webp",
+      "uri": "textures/korean_fire_extinguisher_01_glass_nor_gl_1k.webp"
+    },
+    {
+      "name": "korean_fire_extinguisher_01_glass_diff",
+      "mimeType": "image/webp",
+      "uri": "textures/korean_fire_extinguisher_01_glass_diff_1k.webp"
+    },
+    {
+      "name": "korean_fire_extinguisher_01_glass_metal-korean_fire_extinguisher_01_glass_rough",
+      "mimeType": "image/webp",
+      "uri": "textures/korean_fire_extinguisher_01_glass_arm_1k.webp"
+    },
+    {
+      "name": "korean_fire_extinguisher_01_paper_nor_gl",
+      "mimeType": "image/webp",
+      "uri": "textures/korean_fire_extinguisher_01_paper_nor_gl_1k.webp"
+    },
+    {
+      "name": "korean_fire_extinguisher_01_paper_diff-korean_fire_extinguisher_01_paper_opacity",
+      "mimeType": "image/webp",
+      "uri": "textures/korean_fire_extinguisher_01_paper_diff_1k.webp"
+    },
+    {
+      "name": "korean_fire_extinguisher_01_paper_metal-korean_fire_extinguisher_01_paper_rough",
+      "mimeType": "image/webp",
+      "uri": "textures/korean_fire_extinguisher_01_paper_arm_1k.webp"
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "korean_fire_extinguisher_01.bin",
+      "byteLength": 13175
+    }
+  ],
+  "materials": [
+    {
+      "name": "korean_fire_extinguisher_01_body",
+      "doubleSided": true,
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 2
+        }
+      },
+      "normalTexture": {
+        "index": 1
+      }
+    },
+    {
+      "name": "korean_fire_extinguisher_01_glass",
+      "alphaMode": "BLEND",
+      "doubleSided": true,
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          0.30000001192092896
+        ],
+        "baseColorTexture": {
+          "index": 3
+        },
+        "metallicRoughnessTexture": {
+          "index": 5
+        }
+      },
+      "normalTexture": {
+        "index": 4
+      }
+    },
+    {
+      "name": "korean_fire_extinguisher_01_paper",
+      "alphaMode": "BLEND",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 6
+        },
+        "metallicRoughnessTexture": {
+          "index": 8
+        }
+      },
+      "normalTexture": {
+        "index": 7
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "02_low",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1,
+            "NORMAL": 2,
+            "TEXCOORD_0": 3
+          },
+          "mode": 4,
+          "material": 0,
+          "indices": 0,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 0,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2
+              }
+            }
+          }
+        },
+        {
+          "attributes": {
+            "POSITION": 5,
+            "NORMAL": 6,
+            "TEXCOORD_0": 7
+          },
+          "mode": 4,
+          "material": 1,
+          "indices": 4,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 1,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2
+              }
+            }
+          }
+        },
+        {
+          "attributes": {
+            "POSITION": 9,
+            "NORMAL": 10,
+            "TEXCOORD_0": 11
+          },
+          "mode": 4,
+          "material": 2,
+          "indices": 8,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 2,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "korean_fire_extinguisher_01",
+      "mesh": 0
+    }
+  ],
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "scene": 0,
+  "extensionsUsed": [
+    "EXT_texture_webp",
+    "KHR_draco_mesh_compression"
+  ],
+  "extensionsRequired": [
+    "EXT_texture_webp",
+    "KHR_draco_mesh_compression"
+  ]
+}

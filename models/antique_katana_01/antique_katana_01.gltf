@@ -1,0 +1,169 @@
+{
+  "asset": {
+    "generator": "glTF-Transform v4.5.1",
+    "version": "2.0"
+  },
+  "accessors": [
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 20010
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 5685,
+      "max": [
+        0.04668637365102768,
+        0.6963200569152832,
+        0.04668637365102768
+      ],
+      "min": [
+        -0.04668637365102768,
+        -0.3066237270832062,
+        -0.04668637365102768
+      ]
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 5685
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 5685
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 25524
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 1
+        }
+      }
+    },
+    {
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 0
+        }
+      }
+    },
+    {
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 2
+        }
+      }
+    }
+  ],
+  "images": [
+    {
+      "name": "antique_katana_01_nor_gl",
+      "mimeType": "image/webp",
+      "uri": "textures/antique_katana_01_nor_gl_1k.webp"
+    },
+    {
+      "name": "antique_katana_01_diff",
+      "mimeType": "image/webp",
+      "uri": "textures/antique_katana_01_diff_1k.webp"
+    },
+    {
+      "name": "antique_katana_01_metal-antique_katana_01_rough",
+      "mimeType": "image/webp",
+      "uri": "textures/antique_katana_01_arm_1k.webp"
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "antique_katana_01.bin",
+      "byteLength": 25524
+    }
+  ],
+  "materials": [
+    {
+      "name": "antique_katana_01",
+      "doubleSided": true,
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 2
+        }
+      },
+      "normalTexture": {
+        "index": 1
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Plane",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1,
+            "NORMAL": 2,
+            "TEXCOORD_0": 3
+          },
+          "mode": 4,
+          "material": 0,
+          "indices": 0,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 0,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "antique_katana_01",
+      "mesh": 0
+    }
+  ],
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "scene": 0,
+  "extensionsUsed": [
+    "EXT_texture_webp",
+    "KHR_draco_mesh_compression"
+  ],
+  "extensionsRequired": [
+    "EXT_texture_webp",
+    "KHR_draco_mesh_compression"
+  ]
+}

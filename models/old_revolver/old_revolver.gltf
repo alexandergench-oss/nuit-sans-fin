@@ -1,0 +1,239 @@
+{
+  "asset": {
+    "generator": "glTF-Transform v4.5.1",
+    "version": "2.0"
+  },
+  "accessors": [
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 8280
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 2294,
+      "max": [
+        0.23355285823345184,
+        0.10468297451734543,
+        0.012886935845017433
+      ],
+      "min": [
+        -0.026436544954776764,
+        -0.05547584220767021,
+        -0.012886958196759224
+      ]
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 2294
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 2294
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 1488
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 450,
+      "max": [
+        0.025186844170093536,
+        0.018592722713947296,
+        0.01724804751574993
+      ],
+      "min": [
+        -0.025186844170093536,
+        -0.018592730164527893,
+        -0.01724804751574993
+      ]
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 450
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 450
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 13705
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 13705,
+      "byteLength": 2988
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 1
+        }
+      }
+    },
+    {
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 0
+        }
+      }
+    },
+    {
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 2
+        }
+      }
+    }
+  ],
+  "images": [
+    {
+      "name": "Revolver_NRM",
+      "mimeType": "image/webp",
+      "uri": "textures/Revolver_NRM.webp"
+    },
+    {
+      "name": "Revolver",
+      "mimeType": "image/webp",
+      "uri": "textures/Revolver.webp"
+    },
+    {
+      "name": "Revolver_ORM",
+      "mimeType": "image/webp",
+      "uri": "textures/Revolver_ORM.webp"
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "old_revolver.bin",
+      "byteLength": 16693
+    }
+  ],
+  "materials": [
+    {
+      "name": "old_revolver",
+      "doubleSided": true,
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 2
+        }
+      },
+      "normalTexture": {
+        "index": 1
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Mesh.001",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1,
+            "NORMAL": 2,
+            "TEXCOORD_0": 3
+          },
+          "mode": 4,
+          "material": 0,
+          "indices": 0,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 0,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Mesh",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 5,
+            "NORMAL": 6,
+            "TEXCOORD_0": 7
+          },
+          "mode": 4,
+          "material": 0,
+          "indices": 4,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 1,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "old_revolver_body",
+      "mesh": 0
+    },
+    {
+      "name": "old_revolver_cylinder",
+      "translation": [
+        0.07279103249311447,
+        0.07074712216854095,
+        0
+      ],
+      "mesh": 1
+    }
+  ],
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0,
+        1
+      ]
+    }
+  ],
+  "scene": 0,
+  "extensionsUsed": [
+    "EXT_texture_webp",
+    "KHR_draco_mesh_compression"
+  ],
+  "extensionsRequired": [
+    "EXT_texture_webp",
+    "KHR_draco_mesh_compression"
+  ]
+}

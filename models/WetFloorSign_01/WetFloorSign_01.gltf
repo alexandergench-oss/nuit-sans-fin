@@ -1,0 +1,169 @@
+{
+  "asset": {
+    "generator": "glTF-Transform v4.5.1",
+    "version": "2.0"
+  },
+  "accessors": [
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 684
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 254,
+      "max": [
+        0.15002740919589996,
+        0.6317126154899597,
+        0.16525021195411682
+      ],
+      "min": [
+        -0.15002743899822235,
+        0.002168611390516162,
+        -0.1932590901851654
+      ]
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 254
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 254
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 1821
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 1
+        }
+      }
+    },
+    {
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 0
+        }
+      }
+    },
+    {
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 2
+        }
+      }
+    }
+  ],
+  "images": [
+    {
+      "name": "WetFloorSign_01_nor_gl",
+      "mimeType": "image/webp",
+      "uri": "textures/WetFloorSign_01_nor_gl_1k.webp"
+    },
+    {
+      "name": "WetFloorSign_01_diff",
+      "mimeType": "image/webp",
+      "uri": "textures/WetFloorSign_01_diff_1k.webp"
+    },
+    {
+      "name": "WetFloorSign_01_metallic-WetFloorSign_01_roughness",
+      "mimeType": "image/webp",
+      "uri": "textures/WetFloorSign_01_arm_1k.webp"
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "WetFloorSign_01.bin",
+      "byteLength": 1821
+    }
+  ],
+  "materials": [
+    {
+      "name": "WetFloorSign_01",
+      "doubleSided": true,
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 2
+        }
+      },
+      "normalTexture": {
+        "index": 1
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Mesh",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1,
+            "NORMAL": 2,
+            "TEXCOORD_0": 3
+          },
+          "mode": 4,
+          "material": 0,
+          "indices": 0,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 0,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "WetFloorSign_01",
+      "mesh": 0
+    }
+  ],
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "scene": 0,
+  "extensionsUsed": [
+    "EXT_texture_webp",
+    "KHR_draco_mesh_compression"
+  ],
+  "extensionsRequired": [
+    "EXT_texture_webp",
+    "KHR_draco_mesh_compression"
+  ]
+}

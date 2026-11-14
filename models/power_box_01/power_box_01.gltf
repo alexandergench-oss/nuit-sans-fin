@@ -1,0 +1,245 @@
+{
+  "asset": {
+    "generator": "glTF-Transform v4.5.1",
+    "version": "2.0"
+  },
+  "accessors": [
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 948
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 397,
+      "max": [
+        0.32854655385017395,
+        0.2415962517261505,
+        0.016477327793836594
+      ],
+      "min": [
+        -0.003137260675430298,
+        -0.24546650052070618,
+        -0.0026449114084243774
+      ]
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 397
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 397
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 13110
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 6540,
+      "max": [
+        0.17465750873088837,
+        0.251571387052536,
+        0.04702533408999443
+      ],
+      "min": [
+        -0.16991659998893738,
+        -0.251571387052536,
+        -0.04748108983039856
+      ]
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 6540
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 6540
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 2547
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 2547,
+      "byteLength": 35540
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 1
+        }
+      }
+    },
+    {
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 0
+        }
+      }
+    },
+    {
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 2
+        }
+      }
+    }
+  ],
+  "images": [
+    {
+      "name": "power_box_01_nor_gl",
+      "mimeType": "image/webp",
+      "uri": "textures/power_box_01_nor_gl_1k.webp"
+    },
+    {
+      "name": "power_box_01_diff",
+      "mimeType": "image/webp",
+      "uri": "textures/power_box_01_diff_1k.webp"
+    },
+    {
+      "name": "power_box_01_metal-power_box_01_rough",
+      "mimeType": "image/webp",
+      "uri": "textures/power_box_01_arm_1k.webp"
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "power_box_01.bin",
+      "byteLength": 38087
+    }
+  ],
+  "materials": [
+    {
+      "name": "power_box_01",
+      "doubleSided": true,
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 2
+        }
+      },
+      "normalTexture": {
+        "index": 1
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Plane",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1,
+            "NORMAL": 2,
+            "TEXCOORD_0": 3
+          },
+          "mode": 4,
+          "material": 0,
+          "indices": 0,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 0,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Cube.002",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 5,
+            "NORMAL": 6,
+            "TEXCOORD_0": 7
+          },
+          "mode": 4,
+          "material": 0,
+          "indices": 4,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 1,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "power_box_01_door",
+      "translation": [
+        -0.1638297140598297,
+        0.000004995614290237427,
+        0.04318104311823845
+      ],
+      "rotation": [
+        0,
+        -0.8152777552604675,
+        0,
+        0.5790701508522034
+      ],
+      "mesh": 0
+    },
+    {
+      "name": "power_box_01_box",
+      "mesh": 1
+    }
+  ],
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0,
+        1
+      ]
+    }
+  ],
+  "scene": 0,
+  "extensionsUsed": [
+    "EXT_texture_webp",
+    "KHR_draco_mesh_compression"
+  ],
+  "extensionsRequired": [
+    "EXT_texture_webp",
+    "KHR_draco_mesh_compression"
+  ]
+}

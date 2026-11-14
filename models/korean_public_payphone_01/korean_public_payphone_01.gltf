@@ -1,0 +1,174 @@
+{
+  "asset": {
+    "generator": "glTF-Transform v4.5.1",
+    "version": "2.0"
+  },
+  "accessors": [
+    {
+      "type": "SCALAR",
+      "componentType": 5125,
+      "count": 143502
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 143052,
+      "max": [
+        14.452638626098633,
+        73.77959442138672,
+        19.318130493164062
+      ],
+      "min": [
+        -25.604341506958008,
+        -0.19367599487304688,
+        -10.740947723388672
+      ]
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 143052
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 143052
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 375906
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 1
+        }
+      }
+    },
+    {
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 0
+        }
+      }
+    },
+    {
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 2
+        }
+      }
+    }
+  ],
+  "images": [
+    {
+      "name": "korean_public_payphone_01_nor_gl",
+      "mimeType": "image/webp",
+      "uri": "textures/korean_public_payphone_01_nor_gl_1k.webp"
+    },
+    {
+      "name": "korean_public_payphone_01_diff",
+      "mimeType": "image/webp",
+      "uri": "textures/korean_public_payphone_01_diff_1k.webp"
+    },
+    {
+      "name": "korean_public_payphone_01_metal-korean_public_payphone_01_rough",
+      "mimeType": "image/webp",
+      "uri": "textures/korean_public_payphone_01_arm_1k.webp"
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "korean_public_payphone_01.bin",
+      "byteLength": 375906
+    }
+  ],
+  "materials": [
+    {
+      "name": "korean_public_payphone_01",
+      "doubleSided": true,
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 2
+        }
+      },
+      "normalTexture": {
+        "index": 1
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "메쉬",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1,
+            "NORMAL": 2,
+            "TEXCOORD_0": 3
+          },
+          "mode": 4,
+          "material": 0,
+          "indices": 0,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 0,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "korean_public_payphone_01",
+      "scale": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ],
+      "mesh": 0
+    }
+  ],
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "scene": 0,
+  "extensionsUsed": [
+    "EXT_texture_webp",
+    "KHR_draco_mesh_compression"
+  ],
+  "extensionsRequired": [
+    "EXT_texture_webp",
+    "KHR_draco_mesh_compression"
+  ]
+}

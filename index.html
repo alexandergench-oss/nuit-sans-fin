@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Nuit Sans Fin" />
+    <meta name="theme-color" content="#05070a" />
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="apple-touch-icon" href="./icon-180.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>Nuit Sans Fin</title>
+    <script type="module" crossorigin src="./assets/index-BebPmBVq.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-COT9yAHA.css">
+  </head>
+  <body>
+    <canvas id="game"></canvas>
+    <div id="rotate">Tourne ton téléphone à l’horizontale</div>
+
+    <!-- Affichage en jeu -->
+    <div id="hud" hidden>
+      <div id="hurt"></div>
+      <div id="scope" hidden><i></i><i></i></div>
+      <div id="crosshair"><i></i><i></i><i></i><i></i></div>
+      <div id="hitmarker"><i></i><i></i><i></i><i></i></div>
+      <div id="damage-arc"></div>
+
+      <canvas id="radar"></canvas>
+      <div id="objective"></div>
+      <div id="boosts"></div>
+      <div id="top">
+        <div id="wave"></div>
+        <div id="left"></div>
+      </div>
+      <div id="score">
+        <div id="points">0</div>
+        <div class="label">Points</div>
+        <div id="feed"></div>
+      </div>
+      <div id="banner"></div>
+      <div id="prompt"></div>
+      <div id="notice" hidden></div>
+
+      <div id="vitals">
+        <div id="health-row"><span id="health-value">100</span><div id="health"><div id="health-fill"></div></div></div>
+        <div id="stamina"><div id="stamina-fill"></div></div>
+      </div>
+      <div id="status">
+        <div id="slots"></div>
+        <div id="weapon"></div>
+        <div id="ammo"><span id="ammo-loaded"></span><span id="ammo-reserve"></span></div>
+        <div id="ammo-hint"></div>
+        <div id="grenades"></div>
+        <div id="skill"></div>
+      </div>
+
+      <div id="shop" hidden>
+        <div class="heading" id="shop-title"></div>
+        <div class="hint" id="shop-points"></div>
+        <div id="shop-list"></div>
+        <button id="shop-close">Fermer (E)</button>
+      </div>
+
+      <div id="cards" hidden>
+        <div class="heading" id="cards-heading">Choisis une capacité</div>
+        <div id="card-list"></div>
+        <div class="hint">Clique sur une carte, ou appuie sur 1, 2 ou 3</div>
+      </div>
+    </div>
+
+    <!-- Menus -->
+    <div id="menu" class="screen" hidden>
+      <div class="menu-column">
+        <h1>Nuit <em>Sans</em> Fin</h1>
+        <p class="tagline">Un quartier abandonné, une lampe torche, et des vagues de zombies</p>
+        <button data-action="play" class="primary">Jouer</button>
+        <button data-action="settings">Réglages</button>
+        <button data-action="controls">Commandes</button>
+        <p class="best" id="best"></p>
+      </div>
+    </div>
+
+    <div id="pause" class="screen dim" hidden>
+      <div class="panel">
+        <h2>Pause</h2>
+        <button data-action="resume" class="primary">Reprendre</button>
+        <button data-action="settings">Réglages</button>
+        <button data-action="controls">Commandes</button>
+        <button data-action="restart">Recommencer</button>
+        <button data-action="quit">Menu principal</button>
+      </div>
+    </div>
+
+    <div id="settings" class="screen dim" hidden>
+      <div class="panel wide">
+        <h2>Réglages</h2>
+        <label class="row" for="set-sensitivity"><span>Sensibilité de la souris</span><input id="set-sensitivity" type="range" min="0.2" max="3" step="0.05" /><output id="out-sensitivity"></output></label>
+        <label class="row" for="set-volume"><span>Volume</span><input id="set-volume" type="range" min="0" max="1" step="0.05" /><output id="out-volume"></output></label>
+        <div class="row"><span>Qualité graphique</span>
+          <div class="choice" id="set-quality">
+            <button data-quality="low">Basse</button>
+            <button data-quality="medium">Moyenne</button>
+            <button data-quality="high">Haute</button>
+          </div>
+        </div>
+        <p class="note" id="quality-note"></p>
+        <div class="row"><span>Difficulté</span>
+          <div class="choice" id="set-difficulty">
+            <button data-difficulty="easy">Détente</button>
+            <button data-difficulty="normal">Normale</button>
+            <button data-difficulty="hard">Difficile</button>
+          </div>
+        </div>
+        <p class="note" id="difficulty-note"></p>
+        <button data-action="back" class="primary">Retour</button>
+      </div>
+    </div>
+
+    <div id="controls" class="screen dim" hidden>
+      <div class="panel wide">
+        <h2>Commandes</h2>
+        <dl class="keys">
+          <div><dt>Z Q S D</dt><dd>Se déplacer</dd></div>
+          <div><dt>Souris</dt><dd>Regarder</dd></div>
+          <div><dt>Clic gauche</dt><dd>Tirer ou frapper</dd></div>
+          <div><dt>Clic droit</dt><dd>Viser</dd></div>
+          <div><dt>Maj</dt><dd>Courir</dd></div>
+          <div><dt>Espace</dt><dd>Sauter</dd></div>
+          <div><dt>R</dt><dd>Recharger</dd></div>
+          <div><dt>E</dt><dd>Acheter, ouvrir, prendre</dd></div>
+          <div><dt>G</dt><dd>Lancer une grenade</dd></div>
+          <div><dt>C</dt><dd>Compétence active</dd></div>
+          <div><dt>F</dt><dd>Lampe torche</dd></div>
+          <div><dt>1, 2, molette</dt><dd>Changer d'arme</dd></div>
+          <div><dt>Échap</dt><dd>Pause</dd></div>
+        </dl>
+        <button data-action="back" class="primary">Retour</button>
+      </div>
+    </div>
+
+    <div id="end" class="screen dim blood" hidden>
+      <div class="panel wide">
+        <h2>Tu n'as pas survécu</h2>
+        <p class="tagline" id="end-line"></p>
+        <dl class="stats" id="end-stats"></dl>
+        <button data-action="restart" class="primary">Rejouer</button>
+        <button data-action="quit">Menu principal</button>
+      </div>
+    </div>
+
+    <div id="loading">
+      <div class="loading-title">Nuit <em>Sans</em> Fin</div>
+      <div id="loading-track"><div id="loading-bar"></div></div>
+      <div id="loading-label">Chargement</div>
+    </div>
+  </body>
+</html>

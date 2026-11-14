@@ -1,0 +1,236 @@
+{
+  "asset": {
+    "generator": "glTF-Transform v4.5.1",
+    "version": "2.0"
+  },
+  "accessors": [
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 10524
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 5236,
+      "max": [
+        0.315567284822464,
+        0.18705174326896667,
+        0.022635089233517647
+      ],
+      "min": [
+        -0.3643225431442261,
+        -0.08396368473768234,
+        -0.022635100409388542
+      ]
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 5236
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 5236
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 624
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 260,
+      "max": [
+        0.19929897785186768,
+        0.05395468324422836,
+        0.006879579275846481
+      ],
+      "min": [
+        0.1075679361820221,
+        -0.1333020180463791,
+        -0.006879576947540045
+      ]
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 260
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 260
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 21231
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 21231,
+      "byteLength": 1466
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 1
+        }
+      }
+    },
+    {
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 0
+        }
+      }
+    },
+    {
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 2
+        }
+      }
+    }
+  ],
+  "images": [
+    {
+      "name": "Image_2",
+      "mimeType": "image/webp",
+      "uri": "textures/Image_2.webp"
+    },
+    {
+      "name": "Image_0",
+      "mimeType": "image/webp",
+      "uri": "textures/Image_0.webp"
+    },
+    {
+      "name": "Image_1",
+      "mimeType": "image/webp",
+      "uri": "textures/Image_1.webp"
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "mp5.bin",
+      "byteLength": 22697
+    }
+  ],
+  "materials": [
+    {
+      "name": "Scene_-_Root",
+      "alphaMode": "BLEND",
+      "doubleSided": true,
+      "pbrMetallicRoughness": {
+        "roughnessFactor": 0.6621593832969666,
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 2
+        }
+      },
+      "normalTexture": {
+        "index": 1
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Object_0",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1,
+            "NORMAL": 2,
+            "TEXCOORD_0": 3
+          },
+          "mode": 4,
+          "material": 0,
+          "indices": 0,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 0,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Object_0.017",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 5,
+            "NORMAL": 6,
+            "TEXCOORD_0": 7
+          },
+          "mode": 4,
+          "material": 0,
+          "indices": 4,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 1,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "mp5_body",
+      "mesh": 0
+    },
+    {
+      "name": "mp5_magazine",
+      "mesh": 1
+    }
+  ],
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0,
+        1
+      ]
+    }
+  ],
+  "scene": 0,
+  "extensionsUsed": [
+    "EXT_texture_webp",
+    "KHR_draco_mesh_compression"
+  ],
+  "extensionsRequired": [
+    "EXT_texture_webp",
+    "KHR_draco_mesh_compression"
+  ]
+}

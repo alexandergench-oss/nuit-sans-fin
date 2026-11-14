@@ -1,0 +1,314 @@
+{
+  "asset": {
+    "generator": "glTF-Transform v4.5.1",
+    "version": "2.0"
+  },
+  "accessors": [
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 3150
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 1750,
+      "max": [
+        0.6200396418571472,
+        0.3839779496192932,
+        0.25793057680130005
+      ],
+      "min": [
+        -0.6200396418571472,
+        -0.033854007720947266,
+        -0.25793057680130005
+      ]
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 1750
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 1750
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 1776
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 884,
+      "max": [
+        0.6001027226448059,
+        0.04860854148864746,
+        0.4704034924507141
+      ],
+      "min": [
+        -0.6001027226448059,
+        -0.002477682661265135,
+        -0.0024809977039694786
+      ]
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 884
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 884
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 186
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 84,
+      "max": [
+        0.391524076461792,
+        0.039765797555446625,
+        0.003184771165251732
+      ],
+      "min": [
+        -0.3935350775718689,
+        -0.0027279371861368418,
+        -0.0033034253865480423
+      ]
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 84
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 84
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 8805
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 8805,
+      "byteLength": 4377
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 13182,
+      "byteLength": 790
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 1
+        }
+      }
+    },
+    {
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 0
+        }
+      }
+    },
+    {
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 2
+        }
+      }
+    }
+  ],
+  "images": [
+    {
+      "name": "wooden_military_crate_nor_gl",
+      "mimeType": "image/webp",
+      "uri": "textures/wooden_military_crate_nor_gl_1k.webp"
+    },
+    {
+      "name": "wooden_military_crate_diff",
+      "mimeType": "image/webp",
+      "uri": "textures/wooden_military_crate_diff_1k.webp"
+    },
+    {
+      "name": "wooden_military_crate_metal-wooden_military_crate_rough",
+      "mimeType": "image/webp",
+      "uri": "textures/wooden_military_crate_arm_1k.webp"
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "wooden_military_crate.bin",
+      "byteLength": 13972
+    }
+  ],
+  "materials": [
+    {
+      "name": "wooden_military_crate",
+      "doubleSided": true,
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 2
+        }
+      },
+      "normalTexture": {
+        "index": 1
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Cube.026",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1,
+            "NORMAL": 2,
+            "TEXCOORD_0": 3
+          },
+          "mode": 4,
+          "material": 0,
+          "indices": 0,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 0,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Cube.029",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 5,
+            "NORMAL": 6,
+            "TEXCOORD_0": 7
+          },
+          "mode": 4,
+          "material": 0,
+          "indices": 4,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 1,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Cube.001",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 9,
+            "NORMAL": 10,
+            "TEXCOORD_0": 11
+          },
+          "mode": 4,
+          "material": 0,
+          "indices": 8,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 2,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "wooden_military_crate",
+      "translation": [
+        0,
+        0.03422325849533081,
+        0
+      ],
+      "mesh": 0
+    },
+    {
+      "name": "wooden_military_crate_lid",
+      "translation": [
+        0,
+        0.4156857132911682,
+        -0.23233745992183685
+      ],
+      "mesh": 1
+    },
+    {
+      "name": "wooden_military_crate_latch",
+      "translation": [
+        0,
+        0.39665794372558594,
+        0.23507647216320038
+      ],
+      "mesh": 2
+    }
+  ],
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0,
+        1,
+        2
+      ]
+    }
+  ],
+  "scene": 0,
+  "extensionsUsed": [
+    "EXT_texture_webp",
+    "KHR_draco_mesh_compression"
+  ],
+  "extensionsRequired": [
+    "EXT_texture_webp",
+    "KHR_draco_mesh_compression"
+  ]
+}

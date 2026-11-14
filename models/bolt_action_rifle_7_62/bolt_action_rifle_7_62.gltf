@@ -1,0 +1,725 @@
+{
+  "asset": {
+    "generator": "glTF-Transform v4.5.1",
+    "version": "2.0"
+  },
+  "accessors": [
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 6138
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 2677,
+      "max": [
+        0.020932219922542572,
+        0.04756694659590721,
+        0.02547733299434185
+      ],
+      "min": [
+        -0.029195940122008324,
+        -0.06000050902366638,
+        -0.01219956111162901
+      ]
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 2677
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 2677
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 114
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 42,
+      "max": [
+        -0.012744809500873089,
+        0.04548710957169533,
+        0.019967753440141678
+      ],
+      "min": [
+        -0.02610621601343155,
+        -0.05559620261192322,
+        0.006606341805309057
+      ]
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 42
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 42
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 2271
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 843,
+      "max": [
+        0.10953664034605026,
+        0.0440867617726326,
+        0.020155074074864388
+      ],
+      "min": [
+        -0.11620927602052689,
+        -0.0699949711561203,
+        -0.019568409770727158
+      ]
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 843
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 843
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 5115
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 2455,
+      "max": [
+        1.1600557565689087,
+        0.13345584273338318,
+        0.021439185366034508
+      ],
+      "min": [
+        -0.0694456472992897,
+        -0.04920099303126335,
+        -0.021439185366034508
+      ]
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 2455
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 2455
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 834
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 322,
+      "max": [
+        0.057519976049661636,
+        0.014353388920426369,
+        0.014292087405920029
+      ],
+      "min": [
+        -0.0857716053724289,
+        -0.01079387404024601,
+        -0.009001387283205986
+      ]
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 322
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 322
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 1578
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 581,
+      "max": [
+        0.08484338223934174,
+        0.008325277827680111,
+        0.040199123322963715
+      ],
+      "min": [
+        -0.03785546496510506,
+        -0.03558994084596634,
+        -0.009518366307020187
+      ]
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 581
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 581
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 726
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 195,
+      "max": [
+        0.03840475529432297,
+        0.00726466067135334,
+        0.00726466067135334
+      ],
+      "min": [
+        -0.038445569574832916,
+        -0.00726466067135334,
+        -0.00726466067135334
+      ]
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 195
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 195
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 306
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 112,
+      "max": [
+        0.28293848037719727,
+        0.0685599073767662,
+        0.003500003134831786
+      ],
+      "min": [
+        0.2682514786720276,
+        0.029913589358329773,
+        -0.0035000001080334187
+      ]
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 112
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 112
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 14185
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 14185,
+      "byteLength": 578
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 14763,
+      "byteLength": 6031
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 20794,
+      "byteLength": 13476
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 34270,
+      "byteLength": 2104
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 36374,
+      "byteLength": 3765
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 40139,
+      "byteLength": 1441
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 41580,
+      "byteLength": 807
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 1
+        }
+      }
+    },
+    {
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 0
+        }
+      }
+    },
+    {
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 2
+        }
+      }
+    },
+    {
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 4
+        }
+      }
+    },
+    {
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 3
+        }
+      }
+    },
+    {
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 5
+        }
+      }
+    }
+  ],
+  "images": [
+    {
+      "name": "bolt_action_rifle_7_62_accesories_nor_gl",
+      "mimeType": "image/webp",
+      "uri": "textures/bolt_action_rifle_7_62_accesories_nor_gl_1k.webp"
+    },
+    {
+      "name": "bolt_action_rifle_7_62_accesories_diff",
+      "mimeType": "image/webp",
+      "uri": "textures/bolt_action_rifle_7_62_accesories_diff_1k.webp"
+    },
+    {
+      "name": "bolt_action_rifle_7_62_accesories_metal-bolt_action_rifle_7_62_accesories_rough",
+      "mimeType": "image/webp",
+      "uri": "textures/bolt_action_rifle_7_62_accesories_arm_1k.webp"
+    },
+    {
+      "name": "bolt_action_rifle_7_62_nor_gl",
+      "mimeType": "image/webp",
+      "uri": "textures/bolt_action_rifle_7_62_nor_gl_1k.webp"
+    },
+    {
+      "name": "bolt_action_rifle_7_62_diff",
+      "mimeType": "image/webp",
+      "uri": "textures/bolt_action_rifle_7_62_diff_1k.webp"
+    },
+    {
+      "name": "bolt_action_rifle_7_62_metal-bolt_action_rifle_7_62_rough",
+      "mimeType": "image/webp",
+      "uri": "textures/bolt_action_rifle_7_62_arm_1k.webp"
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "bolt_action_rifle_7_62.bin",
+      "byteLength": 42387
+    }
+  ],
+  "materials": [
+    {
+      "name": "bolt_action_rifle_7_62_accesories",
+      "doubleSided": true,
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 2
+        }
+      },
+      "normalTexture": {
+        "index": 1
+      }
+    },
+    {
+      "name": "bolt_action_rifle_7_62_accesories_glass",
+      "alphaMode": "BLEND",
+      "doubleSided": true,
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 2
+        }
+      },
+      "normalTexture": {
+        "index": 1
+      }
+    },
+    {
+      "name": "bolt_action_rifle_7_62",
+      "doubleSided": true,
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 3
+        },
+        "metallicRoughnessTexture": {
+          "index": 5
+        }
+      },
+      "normalTexture": {
+        "index": 4
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Circle.024",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1,
+            "NORMAL": 2,
+            "TEXCOORD_0": 3
+          },
+          "mode": 4,
+          "material": 0,
+          "indices": 0,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 0,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2
+              }
+            }
+          }
+        },
+        {
+          "attributes": {
+            "POSITION": 5,
+            "NORMAL": 6,
+            "TEXCOORD_0": 7
+          },
+          "mode": 4,
+          "material": 1,
+          "indices": 4,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 1,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "New Empty Mesh.002",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 9,
+            "NORMAL": 10,
+            "TEXCOORD_0": 11
+          },
+          "mode": 4,
+          "material": 0,
+          "indices": 8,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 2,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Cube.047",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 13,
+            "NORMAL": 14,
+            "TEXCOORD_0": 15
+          },
+          "mode": 4,
+          "material": 2,
+          "indices": 12,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 3,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Cylinder.106",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 17,
+            "NORMAL": 18,
+            "TEXCOORD_0": 19
+          },
+          "mode": 4,
+          "material": 2,
+          "indices": 16,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 4,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Cylinder.107",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 21,
+            "NORMAL": 22,
+            "TEXCOORD_0": 23
+          },
+          "mode": 4,
+          "material": 2,
+          "indices": 20,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 5,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Vert.023",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 25,
+            "NORMAL": 26,
+            "TEXCOORD_0": 27
+          },
+          "mode": 4,
+          "material": 2,
+          "indices": 24,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 6,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Cube.001",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 29,
+            "NORMAL": 30,
+            "TEXCOORD_0": 31
+          },
+          "mode": 4,
+          "material": 2,
+          "indices": 28,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 7,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "bolt_action_rifle_7_62_scope",
+      "translation": [
+        -0.20088982582092285,
+        0.06649097800254822,
+        -0.01378594059497118
+      ],
+      "rotation": [
+        0,
+        0,
+        -0.7071068286895752,
+        0.7071068286895752
+      ],
+      "mesh": 0
+    },
+    {
+      "name": "bolt_action_rifle_7_62_wrap",
+      "translation": [
+        -0.47727131843566895,
+        -0.022015638649463654,
+        -0.0003692209720611572
+      ],
+      "mesh": 1
+    },
+    {
+      "name": "bolt_action_rifle_7_62",
+      "translation": [
+        -0.5641504526138306,
+        -0.05962500721216202,
+        0
+      ],
+      "mesh": 2
+    },
+    {
+      "name": "bolt_action_rifle_7_62_bolt_b",
+      "translation": [
+        -0.23714835941791534,
+        0.05067652463912964,
+        0
+      ],
+      "mesh": 3
+    },
+    {
+      "name": "bolt_action_rifle_7_62_bolt_a",
+      "translation": [
+        -0.23714835941791534,
+        0.05067652463912964,
+        0
+      ],
+      "mesh": 4
+    },
+    {
+      "name": "bolt_action_rifle_7_62_bullet_54mm",
+      "translation": [
+        -0.20068682730197906,
+        -0.05466724932193756,
+        0
+      ],
+      "mesh": 5
+    },
+    {
+      "name": "bolt_action_rifle_7_62_trigger",
+      "translation": [
+        -0.5641504526138306,
+        -0.05962500721216202,
+        0
+      ],
+      "mesh": 6
+    }
+  ],
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  ],
+  "scene": 0,
+  "extensionsUsed": [
+    "EXT_texture_webp",
+    "KHR_draco_mesh_compression"
+  ],
+  "extensionsRequired": [
+    "EXT_texture_webp",
+    "KHR_draco_mesh_compression"
+  ]
+}

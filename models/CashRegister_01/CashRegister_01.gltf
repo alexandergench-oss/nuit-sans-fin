@@ -1,0 +1,333 @@
+{
+  "asset": {
+    "generator": "glTF-Transform v4.5.1",
+    "version": "2.0"
+  },
+  "accessors": [
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 7767
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 3416,
+      "max": [
+        0.37438830733299255,
+        0.6218358278274536,
+        0.2625770568847656
+      ],
+      "min": [
+        -0.22402532398700714,
+        0.002179764211177826,
+        -0.1719827950000763
+      ]
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 3416
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 3416
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 18
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 12,
+      "max": [
+        0.19196026027202606,
+        0.6097210049629211,
+        -0.02246727980673313
+      ],
+      "min": [
+        -0.15305203199386597,
+        0.5646552443504333,
+        -0.1453566998243332
+      ]
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 12
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 12
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 1782
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 930,
+      "max": [
+        0.22749921679496765,
+        0.12779641151428223,
+        0.2671951651573181
+      ],
+      "min": [
+        -0.19247044622898102,
+        0.022503677755594254,
+        -0.060094937682151794
+      ]
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 930
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 930
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 19184
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 19184,
+      "byteLength": 260
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 19444,
+      "byteLength": 5375
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 1
+        }
+      }
+    },
+    {
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 0
+        }
+      }
+    },
+    {
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 2
+        }
+      }
+    },
+    {
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 3
+        }
+      }
+    },
+    {
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 4
+        }
+      }
+    }
+  ],
+  "images": [
+    {
+      "name": "CashRegister_01_nor_gl",
+      "mimeType": "image/webp",
+      "uri": "textures/CashRegister_01_nor_gl_1k.webp"
+    },
+    {
+      "name": "CashRegister_01_diff",
+      "mimeType": "image/webp",
+      "uri": "textures/CashRegister_01_diff_1k.webp"
+    },
+    {
+      "name": "CashRegister_01_metallic-CashRegister_01_roughness",
+      "mimeType": "image/webp",
+      "uri": "textures/CashRegister_01_arm_1k.webp"
+    },
+    {
+      "name": "CashRegister_01_glass_diff-CashRegister_01_glass_opacity",
+      "mimeType": "image/webp",
+      "uri": "textures/CashRegister_01_glass_diff_1k.webp"
+    },
+    {
+      "name": "CashRegister_01_glass_metallic-CashRegister_01_glass_roughness",
+      "mimeType": "image/webp",
+      "uri": "textures/CashRegister_01_glass_arm_1k.webp"
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "CashRegister_01.bin",
+      "byteLength": 24819
+    }
+  ],
+  "materials": [
+    {
+      "name": "CashRegister_01",
+      "doubleSided": true,
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 2
+        }
+      },
+      "normalTexture": {
+        "index": 1
+      }
+    },
+    {
+      "name": "CashRegister_01_glass",
+      "alphaMode": "BLEND",
+      "doubleSided": true,
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 3
+        },
+        "metallicRoughnessTexture": {
+          "index": 4
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Cash_register",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1,
+            "NORMAL": 2,
+            "TEXCOORD_0": 3
+          },
+          "mode": 4,
+          "material": 0,
+          "indices": 0,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 0,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2
+              }
+            }
+          }
+        },
+        {
+          "attributes": {
+            "POSITION": 5,
+            "NORMAL": 6,
+            "TEXCOORD_0": 7
+          },
+          "mode": 4,
+          "material": 1,
+          "indices": 4,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 1,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Cash_register.001",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 9,
+            "NORMAL": 10,
+            "TEXCOORD_0": 11
+          },
+          "mode": 4,
+          "material": 0,
+          "indices": 8,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 2,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "CashRegister_01_body",
+      "mesh": 0
+    },
+    {
+      "name": "CashRegister_011_drawer",
+      "translation": [
+        0,
+        0,
+        0.1835193932056427
+      ],
+      "mesh": 1
+    }
+  ],
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0,
+        1
+      ]
+    }
+  ],
+  "scene": 0,
+  "extensionsUsed": [
+    "EXT_texture_webp",
+    "KHR_draco_mesh_compression"
+  ],
+  "extensionsRequired": [
+    "EXT_texture_webp",
+    "KHR_draco_mesh_compression"
+  ]
+}

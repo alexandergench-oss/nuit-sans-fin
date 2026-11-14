@@ -1,0 +1,248 @@
+{
+  "asset": {
+    "generator": "glTF-Transform v4.5.1",
+    "version": "2.0"
+  },
+  "accessors": [
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 8370
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 2189,
+      "max": [
+        0.5765129327774048,
+        0.0195919219404459,
+        0.017190564423799515
+      ],
+      "min": [
+        -0.3914611339569092,
+        -0.16886161267757416,
+        -0.017190473154187202
+      ]
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 2189
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 2189
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 2189
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 732
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 185,
+      "max": [
+        0.2081306129693985,
+        -0.003059739712625742,
+        0.015905749052762985
+      ],
+      "min": [
+        0.09106536209583282,
+        -0.04372138902544975,
+        -0.01590581052005291
+      ]
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 185
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 185
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 185
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 13084
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 13084,
+      "byteLength": 1530
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 1
+        }
+      }
+    },
+    {
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 0
+        }
+      }
+    },
+    {
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 2
+        }
+      }
+    }
+  ],
+  "images": [
+    {
+      "name": "NormalsLow",
+      "mimeType": "image/webp",
+      "uri": "textures/NormalsLow.webp"
+    },
+    {
+      "name": "BaseColorLow",
+      "mimeType": "image/webp",
+      "uri": "textures/BaseColorLow.webp"
+    },
+    {
+      "name": "MetalnessLow-RoughnessLow",
+      "mimeType": "image/webp",
+      "uri": "textures/MetalnessLow-RoughnessLow.webp"
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "pump_rifle.bin",
+      "byteLength": 14614
+    }
+  ],
+  "materials": [
+    {
+      "name": "Material",
+      "doubleSided": true,
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 2
+        }
+      },
+      "normalTexture": {
+        "index": 1
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "LightningRifle",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1,
+            "NORMAL": 2,
+            "TEXCOORD_0": 3,
+            "COLOR_0": 4
+          },
+          "mode": 4,
+          "material": 0,
+          "indices": 0,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 0,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2,
+                "COLOR_0": 3
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "LightningRifle.005",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 6,
+            "NORMAL": 7,
+            "TEXCOORD_0": 8,
+            "COLOR_0": 9
+          },
+          "mode": 4,
+          "material": 0,
+          "indices": 5,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 1,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2,
+                "COLOR_0": 3
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "pump_rifle_body",
+      "mesh": 0
+    },
+    {
+      "name": "pump_rifle_pump",
+      "mesh": 1
+    }
+  ],
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0,
+        1
+      ]
+    }
+  ],
+  "scene": 0,
+  "extensionsUsed": [
+    "EXT_texture_webp",
+    "KHR_draco_mesh_compression"
+  ],
+  "extensionsRequired": [
+    "EXT_texture_webp",
+    "KHR_draco_mesh_compression"
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "asset": {
+    "generator": "glTF-Transform v4.5.1",
+    "version": "2.0"
+  },
+  "accessors": [
+    {
+      "type": "SCALAR",
+      "componentType": 5125,
+      "count": 163632
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 102861,
+      "max": [
+        0.5239759087562561,
+        0.9301872253417969,
+        0.8818937540054321
+      ],
+      "min": [
+        -0.7480385899543762,
+        -0.07364296913146973,
+        -0.9484404921531677
+      ]
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 102861
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 102861
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 384616
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 1
+        }
+      }
+    },
+    {
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 0
+        }
+      }
+    },
+    {
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 2
+        }
+      }
+    }
+  ],
+  "images": [
+    {
+      "name": "boulder_01_nor_gl",
+      "mimeType": "image/webp",
+      "uri": "textures/boulder_01_nor_gl_1k.webp"
+    },
+    {
+      "name": "boulder_01_diff",
+      "mimeType": "image/webp",
+      "uri": "textures/boulder_01_diff_1k.webp"
+    },
+    {
+      "name": "boulder_01_rough",
+      "mimeType": "image/webp",
+      "uri": "textures/boulder_01_arm_1k.webp"
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "boulder_01.bin",
+      "byteLength": 384616
+    }
+  ],
+  "materials": [
+    {
+      "name": "boulder_01",
+      "doubleSided": true,
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0,
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 2
+        }
+      },
+      "normalTexture": {
+        "index": 1
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "rock_PROXY_5m.002",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1,
+            "NORMAL": 2,
+            "TEXCOORD_0": 3
+          },
+          "mode": 4,
+          "material": 0,
+          "indices": 0,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 0,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "boulder_01",
+      "mesh": 0
+    }
+  ],
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "scene": 0,
+  "extensionsUsed": [
+    "EXT_texture_webp",
+    "KHR_draco_mesh_compression"
+  ],
+  "extensionsRequired": [
+    "EXT_texture_webp",
+    "KHR_draco_mesh_compression"
+  ]
+}

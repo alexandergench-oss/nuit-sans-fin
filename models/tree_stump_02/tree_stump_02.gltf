@@ -1,0 +1,170 @@
+{
+  "asset": {
+    "generator": "glTF-Transform v4.5.1",
+    "version": "2.0"
+  },
+  "accessors": [
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 8553
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 2044,
+      "max": [
+        0.8038125038146973,
+        0.2873420715332031,
+        0.7174655795097351
+      ],
+      "min": [
+        -0.7165132164955139,
+        -0.23224560916423798,
+        -0.6727227568626404
+      ]
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 2044
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 2044
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 15721
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 1
+        }
+      }
+    },
+    {
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 0
+        }
+      }
+    },
+    {
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 2
+        }
+      }
+    }
+  ],
+  "images": [
+    {
+      "name": "tree_stump_02_nor_gl",
+      "mimeType": "image/webp",
+      "uri": "textures/tree_stump_02_nor_gl_1k.webp"
+    },
+    {
+      "name": "tree_stump_02_diff",
+      "mimeType": "image/webp",
+      "uri": "textures/tree_stump_02_diff_1k.webp"
+    },
+    {
+      "name": "tree_stump_02_rough",
+      "mimeType": "image/webp",
+      "uri": "textures/tree_stump_02_arm_1k.webp"
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "tree_stump_02.bin",
+      "byteLength": 15721
+    }
+  ],
+  "materials": [
+    {
+      "name": "tree_stump_02",
+      "doubleSided": true,
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0,
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 2
+        }
+      },
+      "normalTexture": {
+        "index": 1
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "tt_02_reproject.001",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1,
+            "TEXCOORD_0": 2,
+            "NORMAL": 3
+          },
+          "mode": 4,
+          "material": 0,
+          "indices": 0,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 0,
+              "attributes": {
+                "POSITION": 0,
+                "TEXCOORD_0": 1,
+                "NORMAL": 2
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "tree_stump_02",
+      "mesh": 0
+    }
+  ],
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "scene": 0,
+  "extensionsUsed": [
+    "EXT_texture_webp",
+    "KHR_draco_mesh_compression"
+  ],
+  "extensionsRequired": [
+    "EXT_texture_webp",
+    "KHR_draco_mesh_compression"
+  ]
+}

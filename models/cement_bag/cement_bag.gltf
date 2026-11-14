@@ -1,0 +1,170 @@
+{
+  "asset": {
+    "generator": "glTF-Transform v4.5.1",
+    "version": "2.0"
+  },
+  "accessors": [
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 2532
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 538,
+      "max": [
+        0.23361928761005402,
+        0.1811952143907547,
+        0.35138440132141113
+      ],
+      "min": [
+        -0.22885453701019287,
+        0.0012853443622589111,
+        -0.348199725151062
+      ]
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 538
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 538
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 4180
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 1
+        }
+      }
+    },
+    {
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 0
+        }
+      }
+    },
+    {
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 2
+        }
+      }
+    }
+  ],
+  "images": [
+    {
+      "name": "cement_bag_nor_gl",
+      "mimeType": "image/webp",
+      "uri": "textures/cement_bag_nor_gl_1k.webp"
+    },
+    {
+      "name": "cement_bag_diff",
+      "mimeType": "image/webp",
+      "uri": "textures/cement_bag_diff_1k.webp"
+    },
+    {
+      "name": "cement_bag_rough",
+      "mimeType": "image/webp",
+      "uri": "textures/cement_bag_arm_1k.webp"
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "cement_bag.bin",
+      "byteLength": 4180
+    }
+  ],
+  "materials": [
+    {
+      "name": "cement_bag",
+      "doubleSided": true,
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0,
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 2
+        }
+      },
+      "normalTexture": {
+        "index": 1
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "cement_bag",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1,
+            "NORMAL": 2,
+            "TEXCOORD_0": 3
+          },
+          "mode": 4,
+          "material": 0,
+          "indices": 0,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 0,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "cement_bag",
+      "mesh": 0
+    }
+  ],
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "scene": 0,
+  "extensionsUsed": [
+    "EXT_texture_webp",
+    "KHR_draco_mesh_compression"
+  ],
+  "extensionsRequired": [
+    "EXT_texture_webp",
+    "KHR_draco_mesh_compression"
+  ]
+}

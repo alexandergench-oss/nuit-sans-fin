@@ -1,0 +1,600 @@
+{
+  "asset": {
+    "generator": "glTF-Transform v4.5.1",
+    "version": "2.0"
+  },
+  "accessors": [
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 11946
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 2145,
+      "max": [
+        0.6715696454048157,
+        0.5176680684089661,
+        0.5395184755325317
+      ],
+      "min": [
+        -0.534639835357666,
+        -0.011003829538822174,
+        -0.44412750005722046
+      ]
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 2145
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 2145
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 5334
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 995,
+      "max": [
+        0.8509746789932251,
+        0.571977972984314,
+        0.4853838384151459
+      ],
+      "min": [
+        -0.7779536247253418,
+        -0.03787674382328987,
+        -0.5260857939720154
+      ]
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 995
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 995
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 12216
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 2325,
+      "max": [
+        0.8215271830558777,
+        0.7037891149520874,
+        0.7171337008476257
+      ],
+      "min": [
+        -0.7580254077911377,
+        -0.032221224159002304,
+        -0.7263228297233582
+      ]
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 2325
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 2325
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 7596
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 1457,
+      "max": [
+        1.006909966468811,
+        0.5974030494689941,
+        0.003854435868561268
+      ],
+      "min": [
+        -1.0845192670822144,
+        -0.6590298414230347,
+        -1.1344274282455444
+      ]
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 1457
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 1457
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 6180
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 1153,
+      "max": [
+        1.136303424835205,
+        0.7441345453262329,
+        0.7670738697052002
+      ],
+      "min": [
+        -1.0639867782592773,
+        -0.024319272488355637,
+        -0.7845621705055237
+      ]
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 1153
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 1153
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 8796
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 1661,
+      "max": [
+        0.9681395888328552,
+        1.0531895160675049,
+        0.5728980898857117
+      ],
+      "min": [
+        -0.9855588674545288,
+        -0.2573341727256775,
+        -0.953721284866333
+      ]
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 1661
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 1661
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 4722
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 972,
+      "max": [
+        1.1786816120147705,
+        0.6225807070732117,
+        0.883268415927887
+      ],
+      "min": [
+        -1.3140548467636108,
+        -0.47013798356056213,
+        -0.9021351337432861
+      ]
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 972
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 972
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 18814
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 18814,
+      "byteLength": 8793
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 27607,
+      "byteLength": 19361
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 46968,
+      "byteLength": 12477
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 59445,
+      "byteLength": 10100
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 69545,
+      "byteLength": 14275
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 83820,
+      "byteLength": 8197
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 1
+        }
+      }
+    },
+    {
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 0
+        }
+      }
+    },
+    {
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 2
+        }
+      }
+    }
+  ],
+  "images": [
+    {
+      "name": "rock_moss_set_02_nor_gl",
+      "mimeType": "image/webp",
+      "uri": "textures/rock_moss_set_02_nor_gl_1k.webp"
+    },
+    {
+      "name": "rock_moss_set_02_diff",
+      "mimeType": "image/webp",
+      "uri": "textures/rock_moss_set_02_diff_1k.webp"
+    },
+    {
+      "name": "rock_moss_set_02_rough",
+      "mimeType": "image/webp",
+      "uri": "textures/rock_moss_set_02_rough_1k.webp"
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "rock_moss_set_02.bin",
+      "byteLength": 92017
+    }
+  ],
+  "materials": [
+    {
+      "name": "rock_moss_set_02",
+      "doubleSided": true,
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0,
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 2
+        }
+      },
+      "normalTexture": {
+        "index": 1
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "low.001",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1,
+            "NORMAL": 2,
+            "TEXCOORD_0": 3
+          },
+          "mode": 4,
+          "material": 0,
+          "indices": 0,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 0,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "moss rock 10.001",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 5,
+            "NORMAL": 6,
+            "TEXCOORD_0": 7
+          },
+          "mode": 4,
+          "material": 0,
+          "indices": 4,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 1,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "moss rock 13",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 9,
+            "NORMAL": 10,
+            "TEXCOORD_0": 11
+          },
+          "mode": 4,
+          "material": 0,
+          "indices": 8,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 2,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "moss rock 14.001",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 13,
+            "NORMAL": 14,
+            "TEXCOORD_0": 15
+          },
+          "mode": 4,
+          "material": 0,
+          "indices": 12,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 3,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "moss rock 11.001",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 17,
+            "NORMAL": 18,
+            "TEXCOORD_0": 19
+          },
+          "mode": 4,
+          "material": 0,
+          "indices": 16,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 4,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "moss rock 12",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 21,
+            "NORMAL": 22,
+            "TEXCOORD_0": 23
+          },
+          "mode": 4,
+          "material": 0,
+          "indices": 20,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 5,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "low.004",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 25,
+            "NORMAL": 26,
+            "TEXCOORD_0": 27
+          },
+          "mode": 4,
+          "material": 0,
+          "indices": 24,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 6,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "rock_moss_set_02_rock08",
+      "translation": [
+        -0.9672319889068604,
+        0,
+        0.7288563847541809
+      ],
+      "mesh": 0
+    },
+    {
+      "name": "rock_moss_set_02_rock09",
+      "translation": [
+        0.8541414737701416,
+        0,
+        0.7288563847541809
+      ],
+      "mesh": 1
+    },
+    {
+      "name": "rock_moss_set_02_rock12",
+      "translation": [
+        0.1600487232208252,
+        0,
+        -0.9607651829719543
+      ],
+      "mesh": 2
+    },
+    {
+      "name": "rock_moss_set_02_rock13",
+      "translation": [
+        2.665236711502075,
+        0.34385111927986145,
+        -0.5581458210945129
+      ],
+      "mesh": 3
+    },
+    {
+      "name": "rock_moss_set_02_rock10",
+      "translation": [
+        3.3305704593658447,
+        0,
+        0.7288563847541809
+      ],
+      "mesh": 4
+    },
+    {
+      "name": "rock_moss_set_02_rock11",
+      "translation": [
+        -2.1246564388275146,
+        0,
+        -0.9607651829719543
+      ],
+      "mesh": 5
+    },
+    {
+      "name": "rock_moss_set_02_rock07",
+      "translation": [
+        -2.9164211750030518,
+        0.22634021937847137,
+        0.7288563847541809
+      ],
+      "scale": [
+        0.678986132144928,
+        0.678986132144928,
+        0.678986132144928
+      ],
+      "mesh": 6
+    }
+  ],
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  ],
+  "scene": 0,
+  "extensionsUsed": [
+    "EXT_texture_webp",
+    "KHR_draco_mesh_compression"
+  ],
+  "extensionsRequired": [
+    "EXT_texture_webp",
+    "KHR_draco_mesh_compression"
+  ]
+}

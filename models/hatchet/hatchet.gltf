@@ -1,0 +1,169 @@
+{
+  "asset": {
+    "generator": "glTF-Transform v4.5.1",
+    "version": "2.0"
+  },
+  "accessors": [
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 15750
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 4157,
+      "max": [
+        0.012804529629647732,
+        0.22689877450466156,
+        0.07712532579898834
+      ],
+      "min": [
+        -0.013217705301940441,
+        -0.06183049827814102,
+        -0.027144843712449074
+      ]
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 4157
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 4157
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 23593
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 1
+        }
+      }
+    },
+    {
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 0
+        }
+      }
+    },
+    {
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 2
+        }
+      }
+    }
+  ],
+  "images": [
+    {
+      "name": "hatchet_nor_gl",
+      "mimeType": "image/webp",
+      "uri": "textures/hatchet_nor_gl_1k.webp"
+    },
+    {
+      "name": "hatchet_diff",
+      "mimeType": "image/webp",
+      "uri": "textures/hatchet_diff_1k.webp"
+    },
+    {
+      "name": "hatchet_metal-hatchet_rough",
+      "mimeType": "image/webp",
+      "uri": "textures/hatchet_arm_1k.webp"
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "hatchet.bin",
+      "byteLength": 23593
+    }
+  ],
+  "materials": [
+    {
+      "name": "hatchet",
+      "doubleSided": true,
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 2
+        }
+      },
+      "normalTexture": {
+        "index": 1
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Plane.002",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1,
+            "NORMAL": 2,
+            "TEXCOORD_0": 3
+          },
+          "mode": 4,
+          "material": 0,
+          "indices": 0,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 0,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "hatchet",
+      "mesh": 0
+    }
+  ],
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "scene": 0,
+  "extensionsUsed": [
+    "EXT_texture_webp",
+    "KHR_draco_mesh_compression"
+  ],
+  "extensionsRequired": [
+    "EXT_texture_webp",
+    "KHR_draco_mesh_compression"
+  ]
+}

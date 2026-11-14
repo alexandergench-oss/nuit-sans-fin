@@ -1,0 +1,239 @@
+{
+  "asset": {
+    "generator": "glTF-Transform v4.5.1",
+    "version": "2.0"
+  },
+  "accessors": [
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 13476
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 3155,
+      "max": [
+        0.26455047726631165,
+        0.43545737862586975,
+        0.5829854607582092
+      ],
+      "min": [
+        -0.26455047726631165,
+        -0.009823650121688843,
+        -0.5833403468132019
+      ]
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 3155
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 3155
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 2052
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 564,
+      "max": [
+        0.2393137514591217,
+        0.03362937271595001,
+        0.5199965834617615
+      ],
+      "min": [
+        -0.2393137514591217,
+        -0.03362937271595001,
+        -0.5199965238571167
+      ]
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 564
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 564
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 19179
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 19179,
+      "byteLength": 3458
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 1
+        }
+      }
+    },
+    {
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 0
+        }
+      }
+    },
+    {
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 2
+        }
+      }
+    }
+  ],
+  "images": [
+    {
+      "name": "wooden_crate_02_nor_gl",
+      "mimeType": "image/webp",
+      "uri": "textures/wooden_crate_02_nor_gl_1k.webp"
+    },
+    {
+      "name": "wooden_crate_02_diff",
+      "mimeType": "image/webp",
+      "uri": "textures/wooden_crate_02_diff_1k.webp"
+    },
+    {
+      "name": "wooden_crate_02_metal-wooden_crate_02_rough",
+      "mimeType": "image/webp",
+      "uri": "textures/wooden_crate_02_arm_1k.webp"
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "wooden_crate_02.bin",
+      "byteLength": 22637
+    }
+  ],
+  "materials": [
+    {
+      "name": "wooden_crate_02",
+      "doubleSided": true,
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 2
+        }
+      },
+      "normalTexture": {
+        "index": 1
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Cube.006",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1,
+            "NORMAL": 2,
+            "TEXCOORD_0": 3
+          },
+          "mode": 4,
+          "material": 0,
+          "indices": 0,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 0,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Cube.008",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 5,
+            "NORMAL": 6,
+            "TEXCOORD_0": 7
+          },
+          "mode": 4,
+          "material": 0,
+          "indices": 4,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 1,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "wooden_crate_02_crate",
+      "mesh": 0
+    },
+    {
+      "name": "wooden_crate_02_lid",
+      "translation": [
+        0.00018336623907089233,
+        0.4205015301704407,
+        -0.00017756223678588867
+      ],
+      "mesh": 1
+    }
+  ],
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0,
+        1
+      ]
+    }
+  ],
+  "scene": 0,
+  "extensionsUsed": [
+    "EXT_texture_webp",
+    "KHR_draco_mesh_compression"
+  ],
+  "extensionsRequired": [
+    "EXT_texture_webp",
+    "KHR_draco_mesh_compression"
+  ]
+}

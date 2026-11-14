@@ -1,0 +1,299 @@
+{
+  "asset": {
+    "generator": "glTF-Transform v4.5.1",
+    "version": "2.0"
+  },
+  "accessors": [
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 2076
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 596,
+      "max": [
+        0.3539096713066101,
+        0.3416849374771118,
+        0.1961396187543869
+      ],
+      "min": [
+        -0.3539096713066101,
+        0.29946234822273254,
+        -0.1961396187543869
+      ]
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 596
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 596
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 16524
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 3708,
+      "max": [
+        0.4126364588737488,
+        0.3139750361442566,
+        0.2128141224384308
+      ],
+      "min": [
+        -0.4126364588737488,
+        -0.00793334562331438,
+        -0.19549614191055298
+      ]
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 3708
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 3708
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 1128
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 384,
+      "max": [
+        0.009643923491239548,
+        0.3357900381088257,
+        0.2071036398410797
+      ],
+      "min": [
+        -0.016070956364274025,
+        0.2390938252210617,
+        0.1312473714351654
+      ]
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 384
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 384
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 3700
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 3700,
+      "byteLength": 22902
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 26602,
+      "byteLength": 1817
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 1
+        }
+      }
+    },
+    {
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 0
+        }
+      }
+    },
+    {
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 2
+        }
+      }
+    }
+  ],
+  "images": [
+    {
+      "name": "wooden_crate_01_nor_gl",
+      "mimeType": "image/webp",
+      "uri": "textures/wooden_crate_01_nor_gl_1k.webp"
+    },
+    {
+      "name": "wooden_crate_01_diff",
+      "mimeType": "image/webp",
+      "uri": "textures/wooden_crate_01_diff_1k.webp"
+    },
+    {
+      "name": "wooden_crate_01_metal-wooden_crate_01_rough",
+      "mimeType": "image/webp",
+      "uri": "textures/wooden_crate_01_arm_1k.webp"
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "wooden_crate_01.bin",
+      "byteLength": 28419
+    }
+  ],
+  "materials": [
+    {
+      "name": "wooden_crate_01",
+      "doubleSided": true,
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 2
+        }
+      },
+      "normalTexture": {
+        "index": 1
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Cube.005",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1,
+            "NORMAL": 2,
+            "TEXCOORD_0": 3
+          },
+          "mode": 4,
+          "material": 0,
+          "indices": 0,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 0,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Cube.020",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 5,
+            "NORMAL": 6,
+            "TEXCOORD_0": 7
+          },
+          "mode": 4,
+          "material": 0,
+          "indices": 4,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 1,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Cube.001",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 9,
+            "NORMAL": 10,
+            "TEXCOORD_0": 11
+          },
+          "mode": 4,
+          "material": 0,
+          "indices": 8,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 2,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "wooden_crate_01_lid",
+      "mesh": 0
+    },
+    {
+      "name": "wooden_crate_01",
+      "mesh": 1
+    },
+    {
+      "name": "wooden_crate_01_latch",
+      "mesh": 2
+    }
+  ],
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0,
+        1,
+        2
+      ]
+    }
+  ],
+  "scene": 0,
+  "extensionsUsed": [
+    "EXT_texture_webp",
+    "KHR_draco_mesh_compression"
+  ],
+  "extensionsRequired": [
+    "EXT_texture_webp",
+    "KHR_draco_mesh_compression"
+  ]
+}

@@ -1,0 +1,293 @@
+{
+  "asset": {
+    "generator": "glTF-Transform v4.5.1",
+    "version": "2.0"
+  },
+  "accessors": [
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 1656
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 670,
+      "max": [
+        0.5400000214576721,
+        2.3999757766723633,
+        0.29908570647239685
+      ],
+      "min": [
+        -0.5400000214576721,
+        0.0000022873277885082643,
+        -0.0010000001639127731
+      ]
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 670
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 670
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 1656
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 670,
+      "max": [
+        0.5400000214576721,
+        2.3999757766723633,
+        0.29908570647239685
+      ],
+      "min": [
+        -0.5400000214576721,
+        0.0000022873277885082643,
+        -0.0010000001639127731
+      ]
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 670
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 670
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 2936
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 2936,
+      "byteLength": 2936
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 1
+        }
+      }
+    },
+    {
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 0
+        }
+      }
+    },
+    {
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 2
+        }
+      }
+    },
+    {
+      "sampler": 0,
+      "extensions": {
+        "EXT_texture_webp": {
+          "source": 3
+        }
+      }
+    }
+  ],
+  "images": [
+    {
+      "name": "rollershutter_door_nor_gl",
+      "mimeType": "image/webp",
+      "uri": "textures/rollershutter_door_nor_gl_1k.webp"
+    },
+    {
+      "name": "rollershutter_door_diff",
+      "mimeType": "image/webp",
+      "uri": "textures/rollershutter_door_diff_1k.webp"
+    },
+    {
+      "name": "rollershutter_door_metal-rollershutter_door_rough",
+      "mimeType": "image/webp",
+      "uri": "textures/rollershutter_door_arm_1k.webp"
+    },
+    {
+      "name": "rollershutter_door_graffiti_diff",
+      "mimeType": "image/webp",
+      "uri": "textures/rollershutter_door_graffiti_diff_1k.webp"
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "rollershutter_door.bin",
+      "byteLength": 5872
+    }
+  ],
+  "materials": [
+    {
+      "name": "rollershutter_door",
+      "doubleSided": true,
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 2
+        }
+      },
+      "normalTexture": {
+        "index": 1
+      },
+      "extensions": {
+        "KHR_materials_ior": {
+          "ior": 1.4500000476837158
+        },
+        "KHR_materials_specular": {
+          "specularColorFactor": [
+            0.948543059910952,
+            0.948543059910952,
+            0.948543059910952
+          ]
+        }
+      }
+    },
+    {
+      "name": "rollershutter_door_graffiti",
+      "doubleSided": true,
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 3
+        },
+        "metallicRoughnessTexture": {
+          "index": 2
+        }
+      },
+      "normalTexture": {
+        "index": 1
+      },
+      "extensions": {
+        "KHR_materials_ior": {
+          "ior": 1.4500000476837158
+        },
+        "KHR_materials_specular": {
+          "specularColorFactor": [
+            0.948543059910952,
+            0.948543059910952,
+            0.948543059910952
+          ]
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Plane.010",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1,
+            "NORMAL": 2,
+            "TEXCOORD_0": 3
+          },
+          "mode": 4,
+          "material": 0,
+          "indices": 0,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 0,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Plane.002",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 5,
+            "NORMAL": 6,
+            "TEXCOORD_0": 7
+          },
+          "mode": 4,
+          "material": 1,
+          "indices": 4,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 1,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "rollershutter_door",
+      "mesh": 0
+    },
+    {
+      "name": "rollershutter_door_graffiti",
+      "translation": [
+        2,
+        0,
+        0
+      ],
+      "mesh": 1
+    }
+  ],
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0,
+        1
+      ]
+    }
+  ],
+  "scene": 0,
+  "extensionsUsed": [
+    "EXT_texture_webp",
+    "KHR_draco_mesh_compression",
+    "KHR_materials_ior",
+    "KHR_materials_specular"
+  ],
+  "extensionsRequired": [
+    "EXT_texture_webp",
+    "KHR_draco_mesh_compression"
+  ]
+}
